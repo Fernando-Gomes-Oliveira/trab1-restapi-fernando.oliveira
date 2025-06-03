@@ -1,0 +1,39 @@
+{
+  "alunos": [
+    {
+      "nome": "Fernando",
+      "apelido": "Oliveira",
+      "curso": "Engenharia De Redes E Sistemas De Computadores",
+      "anoCurricular": 2
+    },
+    {
+      "nome": "Luis",
+      "apelido": "Paiva",
+      "curso": "Engenharia Informática",
+      "anoCurricular": 3
+    },
+    {
+      "nome": "Henrique",
+      "apelido": "Zhyvitski",
+      "curso": "Engenharia Informática",
+      "anoCurricular": 2
+    },
+    {
+      "nome": "Carolina",
+      "apelido": "Ferreira",
+      "curso": "Design Multimédia",
+      "anoCurricular": 1
+    }
+  ],
+  "cursos": [
+    {
+      "nomeDoCurso": "Engenharia Informática"
+    },
+    {
+      "nomeDoCurso": "Design Multimédia"
+    },
+    {
+      "nomeDoCurso": "Engenharia de Redes e Sistemas de Computadores"
+    }
+  ]
+}
