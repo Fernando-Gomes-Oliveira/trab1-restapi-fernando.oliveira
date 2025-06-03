@@ -4,36 +4,69 @@
       "nome": "Fernando",
       "apelido": "Oliveira",
       "curso": "Engenharia De Redes E Sistemas De Computadores",
-      "anoCurricular": 2
+      "anoCurricular": 2,
+      "id": "e445"
     },
     {
       "nome": "Luis",
       "apelido": "Paiva",
       "curso": "Engenharia Informática",
-      "anoCurricular": 3
+      "anoCurricular": 3,
+      "id": "f86c"
     },
     {
       "nome": "Henrique",
       "apelido": "Zhyvitski",
       "curso": "Engenharia Informática",
-      "anoCurricular": 2
+      "anoCurricular": 2,
+      "id": "2150"
     },
     {
       "nome": "Carolina",
       "apelido": "Ferreira",
-      "curso": "Design Multimédia",
+      "curso": "Ciencias Farmaceuticas",
+      "anoCurricular": 1,
+      "id": "fd2c"
+    },
+    {
+      "id": "e762"
+    },
+    {
+      "id": "92f1"
+    },
+    {
+      "id": "50e0"
+    },
+    {
+      "id": "e091"
+    },
+    {
+      "id": "1311",
+      "nome": "Sara",
+      "apelido": "Costa",
+      "curso": "Ciencias Farmaceuticas",
+      "anoCurricular": 1
+    },
+    {
+      "id": "a02e",
+      "nome": "Sara",
+      "apelido": "Costa",
+      "curso": "Ciencias Farmaceuticas",
       "anoCurricular": 1
     }
   ],
   "cursos": [
     {
-      "nomeDoCurso": "Engenharia Informática"
+      "nomeDoCurso": "Engenharia Informática",
+      "id": "51d2"
     },
     {
-      "nomeDoCurso": "Design Multimédia"
+      "nomeDoCurso": "Ciencias Farmaceuticas",
+      "id": "1fb8"
     },
     {
-      "nomeDoCurso": "Engenharia de Redes e Sistemas de Computadores"
+      "nomeDoCurso": "Engenharia de Redes e Sistemas de Computadores",
+      "id": "bd64"
     }
   ]
 }
