@@ -5,68 +5,64 @@
       "apelido": "Oliveira",
       "curso": "Engenharia De Redes E Sistemas De Computadores",
       "anoCurricular": 2,
-      "id": "e445"
+      "_id": "e445",
+      "id": "86cc"
     },
     {
       "nome": "Luis",
       "apelido": "Paiva",
       "curso": "Engenharia Informática",
       "anoCurricular": 3,
-      "id": "f86c"
+      "_id": "f86c",
+      "id": "ac5e"
     },
     {
       "nome": "Henrique",
       "apelido": "Zhyvitski",
       "curso": "Engenharia Informática",
       "anoCurricular": 2,
-      "id": "2150"
+      "_id": "2150",
+      "id": "d56c"
     },
     {
       "nome": "Carolina",
-      "apelido": "Ferreira",
+      "apelido": "Fernandes",
       "curso": "Ciencias Farmaceuticas",
       "anoCurricular": 1,
-      "id": "fd2c"
+      "_id": "fd2c",
+      "id": "3148"
     },
     {
-      "id": "e762"
-    },
-    {
-      "id": "92f1"
-    },
-    {
-      "id": "50e0"
-    },
-    {
-      "id": "e091"
-    },
-    {
-      "id": "1311",
+      "_id": "a02e",
       "nome": "Sara",
       "apelido": "Costa",
       "curso": "Ciencias Farmaceuticas",
-      "anoCurricular": 1
+      "anoCurricular": 1,
+      "id": "7dba"
     },
     {
-      "id": "a02e",
-      "nome": "Sara",
-      "apelido": "Costa",
-      "curso": "Ciencias Farmaceuticas",
-      "anoCurricular": 1
+      "id": "fa7f",
+      "nome": "Gonçalo",
+      "apelido": "Martins",
+      "curso": "Engenharia de Redes e Sistemas de Computadores",
+      "anoCurricular": 2
     }
   ],
   "cursos": [
     {
       "nomeDoCurso": "Engenharia Informática",
-      "id": "51d2"
+      "_id": "51d2",
+      "id": "f901"
     },
     {
       "nomeDoCurso": "Ciencias Farmaceuticas",
-      "id": "1fb8"
+      "_id": "1fb8",
+      "id": "0875"
     },
     {
       "nomeDoCurso": "Engenharia de Redes e Sistemas de Computadores",
-      "id": "bd64"
+      "_id": "bd64",
+      "id": "bcc5"
     }
   ]
 }
