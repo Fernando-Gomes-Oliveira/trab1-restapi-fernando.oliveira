@@ -1,3 +1,5 @@
+require('dotenv').config(); // Adicione no topo do arquivo
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/universidade');
 const express = require('express');
 const mongoose = require('mongoose');
 const alunosRoutes = require('./routes/alunosRoutes');
@@ -20,7 +22,7 @@ app.use('/api/alunos', alunosRoutes);
 setupSwagger(app); // Configura o Swagger
 
 // Inicia o servidor
-const PORT = 3000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
   console.log(`Documentação Swagger em http://localhost:${PORT}/api-docs`);
