@@ -1,18 +1,6 @@
-// app.js
 const express = require('express');
-const connectDB = require('./config/db');
-const alunoRoutes = require('./routes/alunos');
-
-const app = express();
-
-// Middlewares
-app.use(express.json());
-
-// Conexão DB
-connectDB();
-
-// Rotas
-app.use('/api/alunos', alunoRoutes);
-
-const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
+const router = express.Router();
+const Aluno = require('./models/Aluno.js'); // Importa o modelo Mongoose
+const alunosController = require('./controllers/alunosController.js'); // Importa o controlador de alunos
+const setupSwagger = require('./docs/swagger.js'); // Importa a configuração do Swagger
+setupSwagger(app);

@@ -9,14 +9,14 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    background: white;
+    background: rgb(201, 194, 194);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
-    color: #333;
+    color: #000000;
 }
 
 .form-group {
@@ -32,13 +32,13 @@ label {
 input, select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #0d0b0b;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #3c0d45;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #260a28;
 }
 
 #btnCancelar {
@@ -79,7 +79,7 @@ button:hover {
 }
 
 .editar-btn {
-    background-color: #2196F3;
+    background-color: #1d5b8f;
 }
 
 .editar-btn:hover {
@@ -87,9 +87,9 @@ button:hover {
 }
 
 .remover-btn {
-    background-color: #f44336;
+    background-color: #700d06;
 }
 
 .remover-btn:hover {
-    background-color: #d32f2f;
+    background-color: #450707;
 }

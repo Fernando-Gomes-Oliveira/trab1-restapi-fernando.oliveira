@@ -1,4 +1,3 @@
-// backend/models/Aluno.js
 const mongoose = require('mongoose');
 
 const AlunoSchema = new mongoose.Schema({

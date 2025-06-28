@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const API_URL = 'http://localhost:3000';
+    const API_URL = 'https://trab1-api.onrender.com';
     const alunoForm = document.getElementById('alunoForm');
     const alunosList = document.getElementById('alunosList');
     const cursoSelect = document.getElementById('curso');
