@@ -8,7 +8,7 @@ cd backend
 npm install
 npm start
 
-
+Swagger http://localhost:4000/api-docs/
 
 
 
