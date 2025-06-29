@@ -4,6 +4,7 @@ link para o frontend: https://trab1-restapi-fern-git-894f14-fernando-gomes-olive
 link para o backend: https://trab1-restapi-fernando-oliveira.onrender.com
 
 como instalar, como correr
+cd backend
 npm install
 npm start
 
