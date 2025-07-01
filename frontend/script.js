@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const API_URL = 'https://trab1-restapi-fernando-oliveira.onrender.com';
+    const API_URL = 'https://trab1-restapi-fernando-oliveira.onrender.com'; // URL do backend
     const alunoForm = document.getElementById('alunoForm');
     const alunosList = document.getElementById('alunosList');
     const cursoSelect = document.getElementById('curso');
