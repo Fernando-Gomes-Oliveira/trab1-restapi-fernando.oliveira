@@ -6,7 +6,12 @@ link para o backend: https://trab1-restapi-fernando-oliveira.onrender.com
 como instalar, como correr
 cd backend
 npm install
-npm start
+npm install mongoose
+npm install cors
+npm install express
+npm install swagger-jsdoc
+npm install swagger-ui-express
+
 
 Swagger http://localhost:4000/api-docs/
 
