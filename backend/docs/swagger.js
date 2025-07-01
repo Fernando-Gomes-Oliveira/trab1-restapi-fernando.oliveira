@@ -4,7 +4,7 @@ const swaggerUi = require('swagger-ui-express');
 // Configuração dinâmica da URL
 const isProduction = process.env.NODE_ENV === 'production';
 const serverUrl = isProduction 
-  ? 'https://sua-api.onrender.com'  // Substitua pelo URL do seu serviço no Render
+  ? 'https://trab1-restapi-fernando-oliveira.onrender.com/'   // URL do servidor no Render
   : 'http://localhost:3000';
 
 const options = {

@@ -14,7 +14,7 @@ mongoose.connect('mongodb+srv://fernandooliveira:HenriqueForte1@universidade.oht
 // Middleware
 app.use(express.json());
 
-// Configuração do CORS - Adicione este bloco
+// Configuração do CORS 
 app.use(cors({
   origin: [
     'https://trab1-restapi-fern-git-894f14-fernando-gomes-oliveiras-projects.vercel.app/', // URL do frontend no Vercel
@@ -34,6 +34,6 @@ app.get('/', (req, res) => {
 // Inicia o servidor
 const PORT = 4000;
 app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
+  console.log(`Servidor a rodar em http://localhost:${PORT}`);
   console.log(`Documentação Swagger em http://localhost:${PORT}/api-docs`);
 });

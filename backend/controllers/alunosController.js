@@ -3,7 +3,7 @@ const Aluno = require('../models/Aluno');
 // Lista todos os alunos (GET /api/alunos)
 exports.listarAlunos = async (req, res) => {
     try {
-        const alunos = await Aluno.find(); // Busca todos os alunos no MongoDB
+        const alunos = await Aluno.find(); // vai buscar todos os alunos no MongoDB
         res.status(200).json(alunos);
     } catch (err) {
         res.status(500).json({ message: "Erro ao buscar alunos", error: err.message });
