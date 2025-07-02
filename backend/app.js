@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const alunosRoutes = require('./routes/alunos');
+const cursosRoutes = require('./routes/cursos');
 const setupSwagger = require('./docs/swagger');
 require('dotenv').config();  // ← Para carregar o .env localmente
 
@@ -30,7 +31,8 @@ app.use(cors({
 }));
 
 // Rotas
-app.use('/api/alunos', alunosRoutes);
+app.use('/api/alunos', alunosRoutes); // Rota para alunos
+app.use('/api/cursos', cursosRoutes); // Rota para cursos
 
 // Swagger
 setupSwagger(app);
