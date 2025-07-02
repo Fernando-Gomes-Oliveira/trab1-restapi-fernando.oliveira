@@ -3,7 +3,7 @@ const router = express.Router();
 const cursosController = require('../controllers/cursosController');
 
 // Apenas leitura de cursos (GET)
-router.get('/', cursosController.listar);
+router.get('/', cursosController.listarCursos);
 
 /**
  * @swagger
