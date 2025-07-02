@@ -122,12 +122,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Função para editar aluno
-    async function editarAluno(id) {
+    async function editarAluno(_id) {
         try {
-            const response = await fetch(`${API_URL}/alunos/${id}`);
+            const response = await fetch(`${API_URL}/alunos/${_id}`);
             const aluno = await response.json();
             
-            document.getElementById('alunoId').value = id;
+            document.getElementById('alunoId').value = _id;
             document.getElementById('nome').value = aluno.nome;
             document.getElementById('apelido').value = aluno.apelido;
             document.getElementById('curso').value = aluno.curso;
@@ -144,9 +144,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Função para atualizar aluno
-    async function atualizarAluno(id, aluno) {
+    async function atualizarAluno(_id, aluno) {
         try {
-            const response = await fetch(`${API_URL}/alunos/${id}`, {
+            const response = await fetch(`${API_URL}/alunos/${_id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Função para remover aluno
-    async function removerAluno(id) {
+    async function removerAluno(_id) {
         if (confirm('Tem certeza que deseja remover este aluno?')) {
             try {
                 const response = await fetch(`${API_URL}/alunos/${id}`, {
