@@ -7,7 +7,7 @@ const setupSwagger = require('./docs/swagger'); // Importa o Swagger
 const app = express();
 
 // Conexão com o MongoDB
-mongoose.connect('mongodb+srv://fernandooliveira:HenriqueForte1@universidade.oht8tgk.mongodb.net/')
+mongoose.connect('mongodb+srv://fernandooliveira:HenriqueForte1@universidade.oht8tgk.mongodb.net/test?retryWrites=true&w=majority')
   .then(() => console.log("Conectado ao MongoDB!"))
   .catch(err => console.error("Erro ao conectar:", err));
 

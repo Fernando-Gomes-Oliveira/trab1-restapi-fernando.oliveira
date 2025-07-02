@@ -1,14 +1,5 @@
-
 {
   "alunos": [
-    {
-      "nome": "Fernando",
-      "apelido": "Oliveira",
-      "curso": "Engenharia De Redes E Sistemas De Computadores",
-      "anoCurricular": 2,
-      "_id": "e445",
-      "id": "86cc"
-    },
     {
       "nome": "Luis",
       "apelido": "Paiva",
