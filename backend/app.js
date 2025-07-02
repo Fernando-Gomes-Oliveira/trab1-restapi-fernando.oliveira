@@ -23,12 +23,11 @@ app.use(express.json());
 
 // Configuração do CORS
 app.use(cors({
-  origin: [
-    'https://trab1-restapi-fernando-oliveira-pxo.vercel.app/', // Frontend no Vercel
-    'https://trab1-restapi-fernando-oliveira.onrender.com', // Backend no Render
-    'http://localhost:5500' // Frontend local
-  ]
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
+
 
 // Rotas
 app.use('/api/alunos', alunosRoutes); // Rota para alunos
