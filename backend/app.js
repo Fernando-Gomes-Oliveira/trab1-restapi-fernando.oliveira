@@ -23,7 +23,7 @@ app.use(express.json());
 // Configuração do CORS
 app.use(cors({
   origin: [
-    'https://trab1-restapi-fern-git-894f14-fernando-gomes-oliveiras-projects.vercel.app', // Frontend no Vercel
+    'https://trab1-restapi-fernando-oliveira-pxo.vercel.app/', // Frontend no Vercel
     'https://trab1-restapi-fernando-oliveira.onrender.com', // Backend no Render
     'http://localhost:5500' // Frontend local
   ]
