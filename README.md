@@ -21,5 +21,6 @@ Swagger http://localhost:4000/api-docs/
 
 
 
-API simulada :Entrar em mock-server, fazer o comando npm run server, e aceder ao localhost3000](http://localhost:3001/alunos)
+API simulada :Entrar em mock-server, fazer o comando npm run server, e aceder ao localhost3000](http://localhost:3000/alunos)
+para testar o website é necessario ir ao ficheiro script.js na frontend e alterar o API_URL para  const API_URL = 'http://localhost:3000'
 
