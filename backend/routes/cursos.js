@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const ctrl = require('../controllers/cursosController');
+const cursosController = require('../controllers/cursosController');
 
 // Apenas leitura de cursos (GET)
-router.get('/', ctrl.listar);
+router.get('/', cursosController.listar);
 
 /**
  * @swagger
